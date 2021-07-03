@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-area{
     display: flex;
     margin-bottom: 150px;
 }
@@ -18,6 +21,7 @@ section{
 }
 .half-width img{
     width: 80%;
+ 
 }
 .link-batton{
     background-image: linear-gradient(rgb(68, 5, 5),black);
@@ -37,5 +41,16 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5%;
+    padding: 20px;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
 }
